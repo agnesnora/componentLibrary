@@ -97,7 +97,7 @@ function App() {
         <div>
           <Testimonial
             text="Workcation, CTO"
-            src="../../Workcation_logo.png"
+            src="./Workcation_logo.png"
             person="May Andersons"
           >
             <p>
