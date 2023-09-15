@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+}
+
+.star {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  user-select: none;
+  color: white;
+}
+
+.star.filled {
+  color: orange;
+}
+
+button {
+  background-color: #e5e7eb;
+  color: #4b5563;
+  border: 1px solid #6b7280;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 9px 17px;
+  border-radius: 6px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.button-sm {
+  padding: 7px 11px;
+  font-size: 12px;
+}
+
+button.button-lg {
+  padding: 13px 25px;
+}
+
+button.button-success {
+  color: #047857;
+  background-color: #ecfdf5;
+  border-color: #047857;
+}
+
+button.button-warning {
+  color: #fbbf24;
+  background-color: #fffbeb;
+  border-color: #fbbf24;
+}
+
+button.button-danger {
+  color: #f87171;
+  background-color: #fef2f2;
+  border-color: #f87171;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-button {
+  background-color: white;
+}
+
+.menu-dropdown {
+  position: absolute;
+  left: 0;
+  margin-top: 3px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.menu-item {
+  color: #4b5563;
+  padding: 0.75rem;
+  cursor: pointer;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.menu-item:hover {
+  background-color: whitesmoke;
+}
+
+.menu-item:not(:last-child) {
+  border-bottom: 1px solid #6b7280;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.box.filled {
+  background-color: blue;
+}
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-bottom: 2.3em auto;
+}
+.badge-display {
+  display: flex;
+  justify-content: right;
+}
+
+.subtitle {
+  font-family: "Permanent Marker", cursive;
+  margin-right: 0.5em;
+  color: #5e5d5d;
+}
+.badge-grey {
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+
+.badge-red,
+.red {
+  color: #991b1b;
+  background-color: #fee2e2;
+}
+
+.badge-yellow,
+.yellow {
+  color: #92400e;
+  background-color: #fef3c7;
+}
+.badge-green,
+.green {
+  color: #065f46;
+  background-color: #d1fae5;
+}
+.badge-blue {
+  color: #1e40af;
+  background-color: #dbeafe;
+}
+
+.badge-indigo,
+.indigo {
+  color: #3730a3;
+  background-color: #e0e7ff;
+}
+
+.badge-purple {
+  color: #5b21b6;
+  background-color: #ede9fe;
+}
+.badge-pink {
+  color: #9d174d;
+  background-color: #fce7f3;
+}
+
+.badge-square,
+.badge-pill {
+  border-radius: 4px;
+  padding: 1em 2em;
+  font-weight: 500;
+  text-align: center;
+  margin: 0.5em;
+}
+
+.badge-pill {
+  border-radius: 12px;
+}
+
+.badge-square {
+  border-radius: 4px;
+}
+.banner-display {
+  display: flex;
+}
+.banner {
+  padding: 1em 1.5em;
+  border-radius: 6px;
+  margin: 1em 2em;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+
+.card-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: #ede9fe;
+}
+
+.card {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  margin: 1em;
+  padding: 2em;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--content > h1 {
+  font-weight: 500;
+  font-size: 1.25em;
+  color: #111827;
+  margin-bottom: 2em;
+}
+
+.card--content > p {
+  color: #6b7280;
+}
+.card--icon {
+  font-size: 2em;
+  background-color: #3f75fe;
+  color: #fff;
+  padding: 0.3em;
+  border-radius: 6px;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 3em;
+  width: 65%;
+  margin: 2em auto;
+  border-radius: 2px;
+}
+
+.testimonial > p {
+  width: 60%;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  font-family: "Inter";
+  color: #111827;
+  font-weight: 500;
+}
+
+.testimonial > img {
+  width: 20%;
+  padding: 1em;
+}
+
+.cite-content {
+  display: flex;
+}
+
+cite {
+  font-style: normal;
+}
+
+.divider {
+  color: #2e59f3;
+  font-weight: 800;
+  margin: auto 10px;
+  font-style: normal;
+}
