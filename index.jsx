@@ -7,6 +7,7 @@ import PopUp from "./components/PopUp/PopUp";
 import Testimonial from "./components/Testimonial/testimonial";
 import { HiOutlineCloudUpload } from "react-icons/hi";
 import { data } from "./data";
+import imageUrl from "/Workcation_logo.png";
 
 function App() {
   return (
@@ -97,7 +98,7 @@ function App() {
         <div>
           <Testimonial
             text="Workcation, CTO"
-            src="../Workcation_logo.png"
+            src={imageUrl}
             person="May Andersons"
           >
             <p>
