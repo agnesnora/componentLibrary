@@ -27,7 +27,7 @@ function App() {
           <h2 className="subtitle">Pill</h2>
           {data.colorArray.map((color) => (
             <Badge color={color} variant="pill">
-              Badge
+              {color}
             </Badge>
           ))}
         </div>
