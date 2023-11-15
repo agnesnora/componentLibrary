@@ -36,6 +36,7 @@ function App() {
         <h2 className="title">Banners</h2>
         <div className="banner-display">
           <div>
+            <h2 className="subtitle">Long text</h2>
             {data.themeArray.map((theme) => (
               <Banner theme={theme} variant="titleWithText" className="banner">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -43,6 +44,7 @@ function App() {
               </Banner>
             ))}{" "}
           </div>
+          <h2 className="subtitle">Short text</h2>
           <div>
             {data.themeArray.map((theme) => (
               <Banner theme={theme} variant="titleOnly" className="banner">
