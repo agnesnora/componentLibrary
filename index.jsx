@@ -12,19 +12,19 @@ import imageUrl from "/Workcation_logo.png";
 function App() {
   return (
     <>
-      <div>
-        <h1 className="title">Component library ++</h1>
-        <h2 className="title">Badges</h2>
+      <h1 className="title">Component library ++</h1>
+      <h2 className="title">Badges</h2>
+      <div className="badge-container">
+        <h2 className="subtitle">Square</h2>
         <div className="badge-display">
-          <h2 className="subtitle">Square</h2>
           {data.colorArray.map((color) => (
             <Badge color={color} variant="square">
               Badge
             </Badge>
           ))}
         </div>
+        <h2 className="subtitle">Pill</h2>
         <div className="badge-display">
-          <h2 className="subtitle">Pill</h2>
           {data.colorArray.map((color) => (
             <Badge color={color} variant="pill">
               {color}

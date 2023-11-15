@@ -68,7 +68,7 @@ button.button-danger {
   background-color: #fef2f2;
   border-color: #f87171;
 }
-
+/* 
 .menu {
   position: relative;
   display: inline-block;
@@ -97,8 +97,10 @@ button.button-danger {
   justify-content: center;
   align-items: center;
   user-select: none;
+} */
+.badge-container {
+  padding: 1em;
 }
-
 .menu-item:hover {
   background-color: whitesmoke;
 }
@@ -126,8 +128,10 @@ button.button-danger {
   margin-bottom: 2.3em auto;
 }
 .badge-display {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 .subtitle {
