@@ -5,7 +5,7 @@
 body {
   margin: 0 auto;
   font-family: Inter;
-  background-color: f0eaec;
+  background-color: #262626;
   padding: 1em;
   max-width: 1200px;
 }
@@ -24,12 +24,19 @@ body {
   background-color: white;
   transition: background-color 0.3s ease-in-out;
 }
-
+.main-title {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-bottom: 2.3em auto;
+  color: #f288cd;
+  font-size: 3rem;
+}
 .title {
   font-family: "Permanent Marker", cursive;
   text-align: center;
   margin-bottom: 2.3em auto;
-  color: 443437;
+  color: #f288cd;
+  font-size: 2rem;
 }
 .badge-display {
   display: grid;
@@ -39,7 +46,7 @@ body {
 .subtitle {
   font-family: "Permanent Marker", cursive;
   margin-right: 0.5em;
-  color: #322e2f;
+  color: #f2f2f2;
 }
 .badge-grey {
   color: #1f2937;
@@ -49,7 +56,7 @@ body {
 .badge-red,
 .red {
   color: #000000;
-  background-color: f52d34;
+  background-color: #a82657;
 }
 
 .badge-yellow,
@@ -75,11 +82,11 @@ body {
 
 .badge-purple {
   color: #f6e0ff;
-  background-color: #5c3194;
+  background-color: #a6638f;
 }
 .badge-pink {
   color: #1f0421;
-  background-color: #e077e0;
+  background-color: #f288cd;
 }
 
 .badge-square,

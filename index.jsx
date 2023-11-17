@@ -12,8 +12,8 @@ import imageUrl from "/Workcation_logo.png";
 function App() {
   return (
     <>
-      <h1 className="title">Component library ++</h1>
-      <h2 className="title">Badges</h2>
+      <h1 className="main-title">Component library ++</h1>
+      <h3 className="title">Badges</h3>
       <div className="badge-container">
         <h2 className="subtitle">Square</h2>
         <div className="badge-display">
