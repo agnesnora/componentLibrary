@@ -10,11 +10,11 @@ body {
   max-width: 1200px;
 }
 
-.badge-container {
-  padding: 1em;
-  margin: 0 auto;
+/* .badge-container {
+  margin: 1rem auto;
   text-align: center;
-}
+  padding: 0.5rem;
+} */
 
 .box {
   height: 100px;
@@ -38,17 +38,20 @@ h5 {
 .main-title {
   background-color: #fffffe;
   color: #282828;
-  margin-bottom: 1rem;
+  margin: 0 1.2rem 1rem;
+  padding: 1em;
+  border-radius: 8px;
 }
 .main-title > h1 {
   /* font-family: "Permanent Marker", cursive; */
   font-family: "Jura", sans-serif;
   text-align: center;
-  margin: 0 0 1em;
-  padding: 1em;
+  margin: 0;
+  padding: 1em 1em 0;
+
   /* padding: 2em 3em; */
 
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 .main-title-sub {
@@ -56,11 +59,13 @@ h5 {
   font-family: "Roboto Mono", monospace;
   text-align: center;
   margin-top: 0;
+  padding: 2rem;
+  color: #087e8b;
 }
 .title {
   font-family: "Jura", sans-serif;
   text-align: center;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   color: #072636;
   justify-content: center;
 
@@ -92,7 +97,7 @@ h5 {
 
 .badge-red,
 .red {
-  color: #1f2937;
+  color: fffffe;
   background-color: #e02932;
 }
 
@@ -169,13 +174,13 @@ h5 {
 }
 
 .card:hover {
-  background-color: fefefe;
+  background-color: #087e8b;
 }
 
 .card {
   text-align: center;
   font-family: "Inter", sans-serif;
-  background-color: #f9fafb;
+  background-color: #072636;
   border-radius: 8px;
   margin: 1em auto;
   padding: 2em;
@@ -192,7 +197,7 @@ h5 {
 .card--content > h1 {
   font-weight: 500;
   font-size: 1.25em;
-  color: 443437;
+  color: #bfd7ea;
   margin-bottom: 2em;
 }
 .component--container {
@@ -202,12 +207,19 @@ h5 {
 
   padding: 1em;
 }
+
+.badge-container > h2,
+.banner-container > h2 {
+  margin-bottom: 0.5em;
+  color: #072636;
+  font-size: 1.1rem;
+}
 .card--content > p {
-  color: #6b7280;
+  color: #efefef;
 }
 .card--icon {
   font-size: 2em;
-  background-color: #3f75fe;
+  background-color: #ff5a5f;
   color: #fff;
   padding: 0.3em;
   border-radius: 6px;
@@ -215,9 +227,6 @@ h5 {
   text-align: center;
   display: flex;
   justify-content: center;
-}
-.banner-display {
-  padding: 1em;
 }
 
 .testimonial {

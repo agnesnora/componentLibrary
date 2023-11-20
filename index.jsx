@@ -82,7 +82,7 @@ function App() {
               <div
                 className="card--icon"
                 style={{
-                  backgroundColor: "#3F75FE",
+                  backgroundColor: "#bfd7ea",
                   color: "#fff",
                 }}
               >

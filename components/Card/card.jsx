@@ -9,7 +9,7 @@ export default function Card({ text, icon, children }) {
       ) : (
         <div
           style={{
-            backgroundColor: "#9D174D",
+            backgroundColor: "#ff5a5f",
             color: "#fff",
             width: "48px",
             height: "48px",
