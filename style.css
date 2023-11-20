@@ -5,8 +5,8 @@
 body {
   margin: 0 auto;
   font-family: Inter;
-  background-color: #262626;
-  padding: 1em;
+  background-color: #efefef;
+
   max-width: 1200px;
 }
 
@@ -23,20 +23,56 @@ body {
   cursor: pointer;
   background-color: white;
   transition: background-color 0.3s ease-in-out;
+  font-family: "Jura", sans-serif;
+}
+h1,
+h2,
+h3,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+
+  padding-top: 1rem;
 }
 .main-title {
-  font-family: "Permanent Marker", cursive;
+  background-color: #fffffe;
+  color: #282828;
+  margin-bottom: 1rem;
+}
+.main-title > h1 {
+  /* font-family: "Permanent Marker", cursive; */
+  font-family: "Jura", sans-serif;
   text-align: center;
-  margin-bottom: 2.3em auto;
-  color: #f288cd;
+  margin: 0 0 1em;
+  padding: 1em;
+  /* padding: 2em 3em; */
+
   font-size: 3rem;
+  text-transform: uppercase;
+}
+.main-title-sub {
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 0;
 }
 .title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Jura", sans-serif;
   text-align: center;
-  margin-bottom: 2.3em auto;
-  color: #f288cd;
-  font-size: 2rem;
+  margin: 1rem auto;
+  color: #072636;
+  justify-content: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.title {
+  border-bottom: #072636 2px solid;
 }
 .badge-display {
   display: grid;
@@ -44,53 +80,56 @@ body {
 }
 
 .subtitle {
-  font-family: "Permanent Marker", cursive;
+  /* font-family: "Permanent Marker", cursive; */
+  font-family: "Jura", sans-serif;
   margin-right: 0.5em;
-  color: #f2f2f2;
+  color: #0b3954;
 }
 .badge-grey {
   color: #1f2937;
-  background-color: e9dade;
+  background-color: #efefef;
 }
 
 .badge-red,
 .red {
-  color: #000000;
-  background-color: #a82657;
+  color: #1f2937;
+  background-color: #e02932;
 }
 
 .badge-yellow,
 .yellow {
-  color: #5c3194;
-  background-color: #f2ea79;
+  color: #1f2937;
+  background-color: ffee32;
 }
 .badge-green,
 .green {
-  color: #003901;
-  background-color: #00e29b;
+  color: #bfd7ea;
+  background-color: #087e8b;
 }
 .badge-blue {
-  color: #ddff00;
-  background-color: #5161c9;
+  color: #087e8b;
+  background-color: #bfd7ea;
 }
 
 .badge-indigo,
 .indigo {
-  color: #c7c7ff;
-  background-color: #000073;
+  color: ff5a5f;
+  background-color: #072636;
 }
 
 .badge-purple {
   color: #f6e0ff;
-  background-color: #a6638f;
+  background-color: #b5179e;
 }
-.badge-pink {
-  color: #1f0421;
-  background-color: #f288cd;
+.badge-coral,
+.coral {
+  color: #087e8b;
+  background-color: #ff5a5f;
 }
 
 .badge-square,
 .badge-pill {
+  font-family: "Roboto Mono", monospace;
   border-radius: 4px;
   padding: 1em;
   font-weight: 500;
@@ -114,6 +153,9 @@ body {
 }
 .banner-container {
   margin-bottom: 2em;
+}
+.banner > p {
+  font-family: "Roboto Mono", monospace;
 }
 
 .icon {
@@ -153,7 +195,13 @@ body {
   color: 443437;
   margin-bottom: 2em;
 }
+.component--container {
+  background-color: #fffffe;
+  border-radius: 8px;
+  margin: 0 1.2rem 1rem;
 
+  padding: 1em;
+}
 .card--content > p {
   color: #6b7280;
 }

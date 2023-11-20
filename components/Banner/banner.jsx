@@ -13,7 +13,7 @@ export default function Banner({ theme, children, variant, className }) {
       : theme == "warning"
       ? "yellow"
       : theme == "error"
-      ? "red"
+      ? "coral"
       : theme == "neutral"
       ? "indigo"
       : null;

@@ -7,7 +7,7 @@ const data = {
     "blue",
     "indigo",
     "purple",
-    "pink",
+    "coral",
   ],
   themeArray: ["success", "warning", "error", "neutral"],
 };
