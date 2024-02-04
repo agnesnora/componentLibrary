@@ -1,3 +1,5 @@
+import "../../styles/Testimonial/TestimonialStyles.css";
+
 export default function Testimonial({ text, src, children, person }) {
   return (
     <div className="testimonial">

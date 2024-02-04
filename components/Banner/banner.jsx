@@ -6,6 +6,8 @@ import {
   FaInfoCircle,
 } from "react-icons/fa";
 
+import "../../styles/Banner/BannerStyles.css";
+
 export default function Banner({ theme, children, variant, className }) {
   const colorClass =
     theme == "success"

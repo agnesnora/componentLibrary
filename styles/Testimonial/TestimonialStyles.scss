@@ -1,0 +1,60 @@
+cite {
+  font-style: normal;
+}
+
+// .divider {
+//   color: #2e59f3;
+//   font-weight: 800;
+//   margin: auto 10px;
+//   font-style: normal;
+// }
+
+.testimonial > img {
+  width: 40%;
+  padding: 1em;
+}
+
+// .cite-content {
+//   display: flex;
+// }
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 80%;
+  margin: 2em auto;
+  border-radius: 2px;
+  .cite-content {
+    display: flex;
+    .divider {
+      color: #2e59f3;
+      font-weight: 800;
+      margin: auto 10px;
+      font-style: normal;
+    }
+  }
+  p {
+    width: 60%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: "Inter";
+    color: 443437;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 800px) {
+  .testimonial {
+    p {
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+    img {
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Inter;
+  background-color: #efefef;
+  max-width: 1200px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+  font-family: "Jura", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+.component--container {
+  background-color: #fffffe;
+  border-radius: 8px;
+  margin: 0 1.2rem 1rem;
+  padding: 1em;
+}
+
+.main-title {
+  background-color: #fffffe;
+  color: #282828;
+  margin: 0 1.2rem 1rem;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.main-title > h1 {
+  /* font-family: "Permanent Marker", cursive; */
+  font-family: "Jura", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 1em 1em 0;
+  /* padding: 2em 3em; */
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.main-title-sub {
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 0;
+  padding: 2rem;
+  color: #087e8b;
+}
+
+.title {
+  font-family: "Jura", sans-serif;
+  text-align: center;
+  margin: 0.5rem auto;
+  color: #072636;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  border-bottom: #072636 2px solid;
+}
+
+.subtitle {
+  /* font-family: "Permanent Marker", cursive; */
+  font-family: "Jura", sans-serif;
+  margin-left: 1em;
+  color: #0b3954;
+}/*# sourceMappingURL=AppStyles.css.map */

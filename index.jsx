@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial/testimonial";
 import { HiOutlineCloudUpload } from "react-icons/hi";
 import { data } from "./data";
 import imageUrl from "/Workcation_logo.png";
+import "./styles/App/AppStyles.css";
 
 function App() {
   return (

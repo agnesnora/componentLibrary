@@ -1,0 +1,41 @@
+.banner-container {
+  margin-bottom: 2em;
+  .banner {
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    margin: 1em 2em;
+    p {
+      font-family: "Roboto Mono", monospace;
+    }
+  }
+  .subtitle {
+    margin-bottom: 0.5em;
+    color: #072636;
+    font-size: 1.1rem;
+  }
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+.coral {
+  color: #087e8b;
+  background-color: #ff5a5f;
+}
+.indigo {
+  color: ff5a5f;
+  background-color: #072636;
+}
+.green {
+  color: #bfd7ea;
+  background-color: #087e8b;
+}
+.yellow {
+  color: #1f2937;
+  background-color: ffee32;
+}
+@media (min-width: 800px) {
+  .banner-display {
+    display: flex;
+  }
+}

@@ -1,0 +1,69 @@
+.subtitle {
+  margin-bottom: 0.5em;
+  color: #072636;
+  font-size: 1.1rem;
+}
+.badge-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.badge-red,
+.red {
+  color: fffffe;
+  background-color: #e02932;
+}
+.badge-grey {
+  color: #1f2937;
+  background-color: #efefef;
+}
+.badge-yellow {
+  color: #1f2937;
+  background-color: ffee32;
+}
+.badge-green {
+  color: #bfd7ea;
+  background-color: #087e8b;
+}
+.badge-blue {
+  color: #087e8b;
+  background-color: #bfd7ea;
+}
+.badge-indigo {
+  color: ff5a5f;
+  background-color: #072636;
+}
+.badge-purple {
+  color: #f6e0ff;
+  background-color: #b5179e;
+}
+.badge-coral {
+  color: #087e8b;
+  background-color: #ff5a5f;
+}
+.badge-square,
+.badge-pill {
+  font-family: "Roboto Mono", monospace;
+  border-radius: 4px;
+  padding: 1em;
+  font-weight: 500;
+  text-align: center;
+  margin: 0.5em;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.badge-pill {
+  border-radius: 12px;
+}
+
+.badge-square {
+  border-radius: 4px;
+}
+
+@media (min-width: 800px) {
+  .badge-display {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

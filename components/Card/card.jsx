@@ -1,5 +1,5 @@
 import { FaCloudUploadAlt } from "react-icons/fa";
-
+import "../../styles/Card/CardStyles.css";
 export default function Card({ text, icon, children }) {
   console.log(icon);
   return (
